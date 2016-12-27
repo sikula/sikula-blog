@@ -1,3 +1,6 @@
 [submodule "output"]
 	path = output
 	url = https://github.com/sikula/sikula.github.io.git
+[submodule "pelican-themes/chunk"]
+	path = pelican-themes/chunk
+	url = https://github.com/onlyhavecans/pelican-chunk.git
