@@ -1,25 +1,27 @@
-Title: The Hackers Sandbox: Destiny   
+Title: The Hacker's Sandbox: Destiny   
 Date: 2016-12-27
-Category: CTF
+Authors: Freakazoidile
+Category: CTFs
+Tags: hacker's sandbox
 
 
-<h3>The Hackers Sandbox Walkthrough: Destiny (Default Mission Package)</h3>
+<h3>The Hacker's Sandbox Walkthrough: Destiny (Default Mission Package)</h3>
 
 
-<p>The Hackers Sandbox is a interactive hacking simulator. It is a standalone application that can be run on Windows, Linux and OSX that is used to emulate Virtual Machines. From their website: "It features an advanced and scriptable gaming engine which is extendable using Lua Script. You can create your own playable mission-packs to share with your friends or the community."
-<br>This walkthrough will cover the default mission pack called Destiny that comes with The Hackers Sandbox.</p>
+<p>The Hacker's Sandbox is a interactive hacking simulator. It is a standalone application that can be run on Windows, Linux and OSX that is used to emulate Virtual Machines. From their website: "It features an advanced and scriptable gaming engine which is extendable using Lua Script. You can create your own playable mission-packs to share with your friends or the community."
+<br>This walkthrough will cover the default mission pack called Destiny that comes with The Hacker's Sandbox.</p>
 
 
-<p>You find more about The Hackers Sandbox on its official website: <a href src="http://www.flyingmonkeyarmy.com/">www.flyingmonkeyarmy.com</a></p>
+<p>You find more about The Hacker's Sandbox on its official website: <a href src="http://www.flyingmonkeyarmy.com/">www.flyingmonkeyarmy.com</a></p>
 
 <!-- ### Level 1 ### -->
 <br>
 <h2>Level 1: area6</h2>
 <p>First step is straight forward, login with the credentials provided.</p>
-Username = m101
-<br>
-Password = area6
-<br>
+```
+username = m101
+password = area6
+```
 
 <p>Using the <i>ls</i> command we can see there is a file, using <i>cat welcome</i> to view the contents of the file we learn the goal of this level is to gain root access.  Lets being by probing around and seeing which directories and file we have access to. On this machine there are 9 primary directories.</p>
 
