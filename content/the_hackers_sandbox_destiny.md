@@ -1,5 +1,5 @@
 Title: The Hackers Sandbox: Destiny   
-Date: 2016-12-26
+Date: 2016-12-27
 Category: CTF
 
 
